@@ -1,2 +1,3 @@
 # learn_langchain
-learning langchain
+learning langchain using coursera https://www.coursera.org/learn/packt-the-complete-langchain-llms-guide-ep8du/home/welcome
+This repo will be used for assignments
