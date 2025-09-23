@@ -3,4 +3,4 @@ learning langchain using coursera https://www.coursera.org/learn/packt-the-compl
 
 This repo will be used for assignments
 
-Before using replace OPENAI_API with your key
+Before using create .env file with openai api key
