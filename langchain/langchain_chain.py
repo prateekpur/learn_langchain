@@ -8,7 +8,8 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import SequentialChain
 
 def generate_story(location, character, language) :
-    OPENAI_API_KEY = "<your key>"
+    load_dotenv()
+    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
     llm_model = "gpt-3.5-turbo"
     llm = ChatOpenAI(temperature = 0.9, model = llm_model, openai_api_key=OPENAI_API_KEY)
     open_ai = OpenAI(temperature = 0.9, openai_api_key=OPENAI_API_KEY)
